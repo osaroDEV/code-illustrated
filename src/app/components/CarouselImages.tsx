@@ -7,8 +7,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  // CarouselNext,
+  // CarouselPrevious,
 } from "@/components/ui/carousel"
 
 export function CarouselImages() {
@@ -46,8 +46,8 @@ export function CarouselImages() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="left-2" />
-      <CarouselNext className="right-2" />
+      {/* <CarouselPrevious className="left-2" />
+      <CarouselNext className="right-2" /> */}
     </Carousel>
   )
 }
