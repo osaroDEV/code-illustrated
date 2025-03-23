@@ -70,6 +70,29 @@ img {
   display: block;
 }
 
+.lhs-caption, .rhs-caption {
+  font-size: 1.75rem;
+  font-weight: 200;
+}
+
+.rhs-caption {
+  color: #C31D24;
+}
+
+@media (min-width: 480px) { 
+  .lhs-caption, .rhs-caption {
+    font-size: 2.25rem; 
+  }
+ 
+ }
+
+@media (min-width: 768px) { 
+  .lhs-caption, .rhs-caption {
+    font-size: 3rem; 
+  }
+ 
+ }
+
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);

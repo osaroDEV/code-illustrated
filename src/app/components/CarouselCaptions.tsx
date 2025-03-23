@@ -8,10 +8,13 @@ import {
   // CarouselNext,
   // CarouselPrevious,
 } from "@/components/ui/carousel"
+import { AiOutlineDoubleRight } from "react-icons/ai";
 
 export function CarouselCaptions() {
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
+    Autoplay({ delay: 2000, 
+      // stopOnInteraction: true 
+    })
   )
   
   const captions = [
@@ -25,16 +28,16 @@ export function CarouselCaptions() {
     <Carousel
       plugins={[plugin.current]}
       className="w-full"
-      onMouseEnter={plugin.current.stop}
-      onMouseLeave={plugin.current.reset}
+      // onMouseEnter={plugin.current.stop}
+      // onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
         {captions.map((caption,index) => (
           <CarouselItem key={index} className="w-full">
-            <div className="relative flex flex-col gap-4 w-full h-[350px] md:h-[500px] bg-[#C31D24] text-white p-5">
+            <div className="relative flex flex-col gap-4 w-full h-[15.625rem] bg-[#C31D24] text-white p-5">
               <h2 className='text-[1.75rem] leading-[1.2]'>{caption.header}</h2>
               <h3 className='text-[1.125rem] leading-[1.3]'>{caption.note}</h3>
-              <button className='outline-0 py-2 px-3 mx-auto inline-block text-[#ffe747] bg-transparent border-[.125rem] hover:border-[.25rem] border-[#ffe747] cursor-pointer'>Enquire Now</button>
+              <button className='outline-0 flex py-2 px-3 mx-auto items-center gap-2 text-[#ffe747] bg-transparent border-[.125rem] hover:border-[.25rem] border-[#ffe747] cursor-pointer'>Enquire Now <span><AiOutlineDoubleRight /></span></button>
             </div>
           </CarouselItem>
         ))}
