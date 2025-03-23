@@ -12,10 +12,10 @@ const Navbar = () => {
     openMenu()
   }
   return (
-    <div className="w-full h-18 md:h-26 bg-white md:bg-transparent flex items-center justify-center p-4 shadow-[0_0_10px_#00000026]">
+    <div className="w-full h-18 md:h-26 bg-white md:bg-transparent flex items-center justify-center border-b border-[#C31D24] p-4 shadow-[0_0_10px_#00000026]">
       <div className="w-full flex items-center justify-between">
         <Link href="/" className="inline md:hidden">
-          <Image src="/code-ill.svg" alt="logo" width={64} height={64} />
+          <Image src="/code-ill.svg" alt="logo" width={70} height={70} />
         </Link>
         <Link href="/" className="hidden md:inline">
           <Image src="/code-ill.svg" alt="logo" width={128} height={128} />

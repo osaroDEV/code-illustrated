@@ -18,6 +18,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
     <html lang="en">
       <body className="relative">
         <Navbar />
+        
         {isMenuOpen && <Menu />}
         <main>{children}</main>
       </body>
