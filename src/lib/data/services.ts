@@ -8,7 +8,7 @@ export const services = [
     {
         id: 1,
         header: 'Structured Online Courses',
-        body: "These courses provide a curriculum covering various programming languages and technologies, often with coding exercises, and projects.",
+        body: "Our courses provide a curriculum covering various programming languages and technologies, often with coding exercises, and projects.",
         icon: MdModelTraining
         
 },
@@ -21,7 +21,7 @@ export const services = [
     {
         id: 3,
         header: 'Live Online Classes/Mentorship',
-        body: "Many schools offer live sessions with instructors, allowing for real-time interaction, Q&A, and personalized guidance. Some also provide one on one mentoring",
+        body: "We offer live sessions with instructors, allowing for real-time interaction, Q&A, and personalized guidance. We also provide mentoring.",
         icon: LiaHandsHelpingSolid
 
 },
