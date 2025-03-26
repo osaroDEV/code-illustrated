@@ -10,7 +10,7 @@ const WhyUs = () => {
         <p>
           Our comprehensive online coding program provides a structured pathway to developing
           in-demand skills in Web, Software, and App Development. Through step-by-step modules,
-          you'll learn front-end and back-end coding, build practical projects, and prepare for
+          you&apos;ll learn front-end and back-end coding, build practical projects, and prepare for
           industry-recognized certifications. Construct a strong portfolio showcasing your
           abilities.
         </p>
