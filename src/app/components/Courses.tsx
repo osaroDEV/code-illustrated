@@ -15,7 +15,7 @@ const Courses = () => {
             <div
               key={course.id}
               className={clsx(
-                'relative w-full sm:w-1/2 md:w-1/3 flex justify-center items-center gap-4 text-white hover:text-[#ffe747] py-12 sm:py-16 opacity-70',
+                'relative w-full sm:w-1/2 md:w-1/3 flex justify-center items-center gap-4 text-white hover:text-[#ffe747] py-12 sm:py-16 opacity-95 transition-opacity duration-300 ease-in-out',
                 {
                   // 'bg-[#af3344]': course.id === 1,
                   'bg-[#af3344]': course.id === 1,
