@@ -79,6 +79,10 @@ img {
   color: #C31D24;
 }
 
+/* .responsive-image {
+  object-fit: cover; 
+} */
+
 @media (min-width: 480px) { 
   .lhs-caption, .rhs-caption {
     font-size: 2.25rem; 
