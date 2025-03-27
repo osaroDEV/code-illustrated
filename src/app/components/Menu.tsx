@@ -39,10 +39,13 @@ const Menu = () => {
       role="dialog"
       aria-modal="true"
     >
-      <div className="w-full h-18 flex items-center justify-center p-4 shadow-[0_0_10px_#00000026]">
+      <div className="w-full h-18 md:h-26 flex items-center justify-center p-4 shadow-[0_0_10px_#00000026]">
         <div className="w-full flex items-center justify-between">
-          <Link href="/">
-            <Image src="/code-ill.svg" alt="logo" width={64} height={64} />
+          <Link href="/" className="inline md:hidden">
+            <Image src="/code-ill.svg" alt="logo" width={70} height={70} />
+          </Link>
+          <Link href="/" className="hidden md:inline">
+            <Image src="/code-ill.svg" alt="logo" width={128} height={128} />
           </Link>
           <button
             className="h-[3.125rem] w-[3.125rem] bg-white hover:bg-gray-100 shadow-[0_3px_5px_rgba(0,0,0,0.2)] hover:shadow-[0_4px_6px_rgba(0,0,0,0.4)] transition-shadow duration-300 ease-in-out rounded-full flex items-center justify-center cursor-pointer"
@@ -52,10 +55,7 @@ const Menu = () => {
           </button>
         </div>
       </div>
-      <div
-        ref={menuRef}
-        className="flex flex-col items-center justify-center h-full space-y-8"
-      >
+      <div ref={menuRef} className="flex flex-col items-center justify-center h-full space-y-8">
         <Link href="/" className="text-2xl hover:underline" onClick={handleMenu}>
           Home
         </Link>

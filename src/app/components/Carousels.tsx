@@ -13,7 +13,7 @@ const Carousels = () => {
         <CarouselImages />
       </div>
       <div className="md:relative">
-        <section className="hidden z-[100] md:flex md:absolute md:bottom-[-2rem] md:right-8 md:px-8 bg-white h-16 justify-center items-center">
+        <section className="hidden z-[40] md:flex md:absolute md:bottom-[-2rem] md:right-8 md:px-8 bg-white h-16 justify-center items-center">
           <span className="lhs-caption">Learn. Build.</span>&nbsp;
           <span className="rhs-caption">Succeed.</span>
         </section>
