@@ -3,6 +3,7 @@ import React from 'react'
 import './styles.css'
 import Navbar from '@/app/components/Navbar'
 import Menu from '@/app/components/Menu'
+import Footer from '@/app/components/Footer'
 import useModalStore from '@/lib/store/useModal'
 
 // export const metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
         
         {isMenuOpen && <Menu />}
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
