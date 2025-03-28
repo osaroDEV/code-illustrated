@@ -5,7 +5,7 @@ import { BsTwitter, BsInstagram } from 'react-icons/bs';
 import {
   MdOutlineExpandMore,
   MdOutlineExpandLess,
-  MdOutlineMailOutline,
+  // MdOutlineMailOutline,
 } from 'react-icons/md';
 import { FaFacebookF } from 'react-icons/fa';
 import { ImYoutube2 } from 'react-icons/im';
@@ -165,7 +165,7 @@ const Footer = () => {
             </p>
           </section>
         </div>
-        <div className='h-auto md:h-[200px] w-full md:w-[50%] lg:w-[25%] p-2'>
+        {/* <div className='h-auto md:h-[200px] w-full md:w-[50%] lg:w-[25%] p-2'>
           <div className='flex md:block justify-between items-center'>
             <h2 className='uppercase font-bold tracking-[2px]'>join us</h2>
             <span onClick={handleJoinUsExpand} className='md:hidden text-2xl'>
@@ -206,11 +206,11 @@ const Footer = () => {
               </span>
             </div>
           </section>
-        </div>
+        </div> */}
       </section>
       <hr className='border border-[rgba(0,0,0,0.3)] mb-[1rem]' />
       <span className='p-[1rem_0] text-[14px]'>
-        Copyright &copy; {new Date().getFullYear()}. All rights reserved
+        &copy; {new Date().getFullYear()}. Code Illustrated Online School
       </span>
     </div>
   );
