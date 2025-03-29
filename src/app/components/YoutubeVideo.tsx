@@ -6,7 +6,7 @@ interface YouTubeVideoProps {
 
 const YouTubeVideo = ({ videoId }: YouTubeVideoProps) => {
   return (
-    <div className='w-full bg-[#C31D24] flex justify-center items-center p-4'>
+    <div className='w-full bg-[#C31D24] flex justify-center items-center p-6'>
       <iframe
         width='640'
         height='360'
