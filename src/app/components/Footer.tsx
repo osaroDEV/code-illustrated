@@ -53,9 +53,9 @@ const Footer = () => {
                   <span className="flex justify-center items-center w-[25%] md:w-full h-[50px]">
                     <FaFacebookF className="text-[#3b5998]" />
                   </span>
-                  <span className="flex justify-center items-center w-[25%] md:w-full h-[50px]">
-                    <BsTwitter className="text-[#1da1f2]" />
-                  </span>
+                  <Link href="https://x.com/codeillustrated" className="flex justify-center items-center w-[25%] md:w-full h-[50px]">
+                    <BsTwitter className="text-[#1da1f2] cursor-pointer" />
+                  </Link>
                   <span className="flex justify-center items-center w-[25%] md:w-full h-[50px]">
                     <BsInstagram className="text-[red]" />
                   </span>
@@ -75,9 +75,9 @@ const Footer = () => {
               <span className="flex justify-center items-center w-[25%] md:w-full h-[50px]">
                 <FaFacebookF className="text-[#3b5998]" />
               </span>
-              <span className="flex justify-center items-center w-[25%] md:w-full h-[50px]">
-                <BsTwitter className="text-[#1da1f2]" />
-              </span>
+              <Link href="https://x.com/codeillustrated" className="flex justify-center items-center w-[25%] md:w-full h-[50px]">
+                <BsTwitter className="text-[#1da1f2] cursor-pointer" />
+              </Link>
               <span className="flex justify-center items-center w-[25%] md:w-full h-[50px]">
                 <BsInstagram className="text-[red]" />
               </span>
@@ -146,9 +146,6 @@ const Footer = () => {
             </p>
             <p>
               <Link href="/contact-us">Contact</Link>
-            </p>
-            <p>
-              <Link href="/shop">Shop</Link>
             </p>
           </section>
         </div>
