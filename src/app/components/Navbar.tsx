@@ -22,7 +22,7 @@ const Navbar = () => {
         </Link>
         <div className="sm:text-xl md:text-2xl lg:text-3xl font-bold">CIOS</div>
         <button
-          className="h-[3.125rem] w-[3.125rem] bg-[#C31D24] hover:bg-[#a20f24] shadow-[0_3px_5px_rgba(0,0,0,0.2)]  hover:shadow-[0_4px_6px_rgba(0,0,0,0.4)]  transition-shadow duration-300 ease-in-out rounded-full flex items-center justify-center cursor-pointer"
+          className="h-[3.125rem] w-[3.125rem] bg-[#C31D24] hover:bg-[#a20f24] shadow-[0_3px_5px_rgba(0,0,0,0.2)] hover:shadow-[0_4px_6px_rgba(0,0,0,0.4)] transition-shadow duration-300 ease-in-out rounded-full flex items-center justify-center cursor-pointer"
           onClick={handleMenu}
         >
           <RxHamburgerMenu className="text-white text-2xl" />

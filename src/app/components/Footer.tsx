@@ -46,7 +46,7 @@ const Footer = () => {
             {isContactExpand ? (
               <div>
                 <section className="text-[14px] lg:text-[16px] leading-[1.7]">
-                  <p>Tel: +44 20 1234 5678</p>
+                  <p>Tel: +44 7405 556 221</p>
                   <p>Email: admin@codeillustrated.com</p>
                 </section>
                 <section className="w-[200px] flex flex-row">
@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
           <div className="hidden md:block">
             <section className="text-[14px] lg:text-[16px] leading-[1.7]">
-              <p>Tel: +44 20 1234 5678</p>
+              <p>Tel: +44 7405 556 221</p>
               <p>Email: admin@codeillustrated.com</p>
             </section>
             <section className="w-[12.5rem] flex flex-row">
