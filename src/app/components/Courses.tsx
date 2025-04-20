@@ -6,10 +6,24 @@ import clsx from 'clsx'
 const Courses = () => {
   return (
     <div className="bg-[#1a596c] flex items-center justify-center px-4 py-8 md:px-8 md:py-12 xl:px-12 xl:py-16">
-      <div className="w-full">
-        <h2 className="my-4 text-center md:text-left tracking-[.235rem] uppercase text-white sm:text-xl md:text-2xl">
+      <div className="w-full flex flex-col gap-15 lg:gap-[109px]">
+        {/* <h2 className="my-4 text-center md:text-left tracking-[.235rem] uppercase text-white sm:text-xl md:text-2xl">
           courses
-        </h2>
+        </h2> */}
+        <div className="w-full lg:w-[528px] h-[118px] lg:h-[97px] flex flex-col gap-[20px] lg:gap-[30px] justify-center items-center mx-auto">
+          <div className="w-[174px] lg:w-[189px] flex justify-center items-center gap-[15px]">
+            <span className="w-[4px] h-[4px] bg-[#007AFF]"></span>
+            <h2 className="uppercase text-[10px] lg:text-[11px] text-white">Courses</h2>
+          </div>
+          <div className="flex flex-col items-center justify-center gap-[10px] px-3">
+            <h2 className="text-white text-center text-[18px] lg:text-[22px] font-semibold leading-[21.6px]">
+            What Our Offerings Include
+            </h2>
+            <p className="text-white text-center text-[13px] lg:text-[15px] leading-[15.6px] font-medium">
+            Explore our diverse range of courses designed to empower you with in-demand skills and knowledge.
+            </p>
+          </div>
+        </div>
         <div className="flex flex-wrap">
           {courses.map((course) => (
             <div
