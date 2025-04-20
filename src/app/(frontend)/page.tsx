@@ -1,5 +1,7 @@
 import Carousels from '../components/Carousels'
 import Courses from '../components/Courses'
+import FAQ from '../components/FAQ'
+import Reviews from '../components/Reviews'
 import WhatsIncluded from '../components/WhatsIncluded'
 import WhyUs from '../components/WhyUs'
 import YoutubeVideo from '../components/YoutubeVideo'
@@ -14,7 +16,9 @@ export default function HomePage() {
       <WhatsIncluded />
       <WhyUs />
       <Courses />
+      <Reviews />
       <YoutubeVideo videoId={videoId} />
+      <FAQ />
     </div>
   )
 }

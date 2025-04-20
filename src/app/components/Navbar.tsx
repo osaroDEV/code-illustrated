@@ -11,6 +11,7 @@ const Navbar = () => {
   const handleMenu = () => {
     openMenu()
   }
+  
   return (
     <div className="w-full h-18 md:h-26 bg-white flex items-center justify-center border-b border-[#C31D24] p-4 shadow-[0_0_10px_#00000026]">
       <div className="w-full flex items-center justify-between">
