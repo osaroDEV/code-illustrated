@@ -11,14 +11,14 @@ export const reviews = [
     {
       id: 2,
       stars: 4,
-      body: 'The flexibility of the online format was perfect for my busy schedule. I could learn at my own pace and revisit materials whenever needed. The career services offered were invaluable – they helped me with my resume and interview skills, and I landed a junior developer role within a month of graduating!',
+      body: 'The flexibility of the online format was perfect for my busy schedule. I could learn at my own pace and revisit materials whenever needed. The career services offered were invaluable– they helped me with my resume and interview skills, and I landed a junior developer role within a month of graduating!',
       name: 'Cassandra P.',
       date: 'January 2023',
     },
     {
       id: 3,
       stars: 5,
-      body: 'I&apos;ve tried learning to code through free resources before, but this structured program made all the difference. The curriculum was well-organized, and the live sessions provided a great opportunity to interact with instructors and fellow students. The community aspect was surprisingly strong for an online program.',
+      body: "I've tried learning to code through free resources before, but this structured program made all the difference. The curriculum was well-organized, and the live sessions provided a great opportunity to interact with instructors and fellow students. The community aspect was surprisingly strong for an online program.",
       name: 'Caleb M.',
       date: 'November 2022',
     },
