@@ -1,27 +1,21 @@
-'use client'
 import React from 'react'
 import './styles.css'
 import Navbar from '@/app/components/Navbar'
-import Menu from '@/app/components/Menu'
 import Footer from '@/app/components/Footer'
 import useModalStore from '@/lib/store/useModal'
+import ClientLayout from './client-layout'
 
-// export const metadata = {
-//   description: 'An online school for coding and programming',
-//   title: 'Home: Code Illustrated',
-// }
+export const metadata = {
+  description: 'An online school for coding and programming',
+  title: 'Home: Code Illustrated',
+}
 
-export default function RootLayout(props: { children: React.ReactNode }) {
-  const { children } = props
-  const { isMenuOpen } = useModalStore()
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="relative">
+      <body>
         <Navbar />
-        
-        {isMenuOpen && <Menu />}
-        <main>{children}</main>
+        <ClientLayout>{children}</ClientLayout>
         <Footer />
       </body>
     </html>

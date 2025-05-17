@@ -52,7 +52,7 @@ export function CarouselCaptions() {
               <h2 className="text-[1.75rem] leading-[1.2]">{caption.header}</h2>
               <h3 className="text-[1rem] leading-[1.3]">{caption.note}</h3>
               <Link
-                href="https://docs.google.com/forms/d/e/1FAIpQLSeg4jkELUAaKIVla7BLOro9vT1G7X69aYG2EUtEGshL8uPr4w/viewform"
+                href="/form"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="outline-0 flex py-2 px-3 mx-auto items-center gap-2 text-[#ffe747] bg-transparent border-[.125rem] hover:border-[.25rem] border-[#ffe747] cursor-pointer"
