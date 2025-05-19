@@ -8,6 +8,9 @@ import ClientLayout from './client-layout'
 export const metadata = {
   description: 'An online school for coding and programming',
   title: 'Home: Code Illustrated',
+  icons: {
+    icon: "/code-ill.svg",
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
