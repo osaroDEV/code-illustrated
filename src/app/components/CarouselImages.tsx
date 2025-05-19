@@ -4,10 +4,12 @@ import Image from 'next/image'
 
 export function CarouselImages() {
   const images = [
-    "/images/flying.jpg",
-    "/images/looking.jpg",
-    "/images/smiling.jpg",
-    "/images/shaking.jpg",
+    "https://res.cloudinary.com/dlahyjhur/image/upload/v1747656973/online-class2_zurjc7.jpg",
+    "https://res.cloudinary.com/dlahyjhur/image/upload/v1747656968/girl-count_lkut6i.jpg",
+    "https://res.cloudinary.com/dlahyjhur/image/upload/v1747656967/online-class1_vjzohm.jpg",
+    "https://res.cloudinary.com/dlahyjhur/image/upload/v1747656967/blurred-gadgets_jrridt.jpg",
+    "https://res.cloudinary.com/dlahyjhur/image/upload/v1747656964/online-tutor_a0reae.jpg",
+    'https://res.cloudinary.com/dlahyjhur/image/upload/v1747656124/pointing-at-laptop_k74oyb.jpg'
   ]
 
   const [currentImageIndex, setCurrentImageIndex] = React.useState(0)
